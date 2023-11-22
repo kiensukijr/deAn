@@ -46,7 +46,7 @@ section:nth-child(even){
 
 .heading{
     text-align: center;
-    color:var(--black);
+    color:black;
     font-size: 3rem;
     padding-bottom: 2rem;
     text-transform: uppercase;
@@ -57,14 +57,14 @@ section:nth-child(even){
     display: inline-block;
     font-size: 1.7rem;
     color:#fff;
-    background: var(--black);
+    background: black;
     border-radius: .5rem;
     cursor: pointer;
     padding:.8rem 3rem;
 }
 
 .btn:hover{
-    background: var(--green);
+    background: red;
     letter-spacing: .1rem;
 }
 
@@ -515,6 +515,7 @@ header .icons #menu-bars{
 .order form .inputBox .input input,
 .order form .inputBox .input textarea{
     background:#eee;
+    border: 1px solid black;
     border-radius: .5rem;
     padding:1rem;
     font-size: 1.6rem;
